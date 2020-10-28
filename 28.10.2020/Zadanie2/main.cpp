@@ -32,11 +32,11 @@ int main()
     cin>>xA>>yA>>xB>>yB>>xC>>yC;
 
     AB=sqrt(pow(xA-xB,2)+pow(yA-yB,2));
-    AB=fabs(AB)/2; cout<<AB<<endl;
+    AB=fabs(AB)/2; //cout<<AB<<endl;
     BC=sqrt(pow(xB-xC,2)+pow(yB-yC,2));
-    BC=fabs(BC)/2; cout<<BC<<endl;
+    BC=fabs(BC)/2; //cout<<BC<<endl;
     CA=sqrt(pow(xC-xA,2)+pow(yC-yA,2));
-    CA=fabs(CA)/2; cout<<CA<<endl;
+    CA=fabs(CA)/2; //cout<<CA<<endl;
 
     if(czyTrojkat(AB,BC,CA))
     {
