@@ -16,7 +16,7 @@ int main()
         return 0;
     }
     else if(n==2){
-        std::cout<<"2\n";
+        std::cout<<"1\n";
         return 0;
 
     }
